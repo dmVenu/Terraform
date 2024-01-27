@@ -1,8 +1,3 @@
-provider "aws" {
-    region = "ap-south-1"
-   access_key = "AKIAW3MEFODSCWT5SFT2"
-   secret_key = "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" 
-}
 
 
 resource "aws_instance" "dev" {
